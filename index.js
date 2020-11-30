@@ -5,7 +5,7 @@ const responses = require('./responses.json');
 
 
 client.on("message", msg => {
-    for (var a in responses.mathes) {
+    for (var a in responses.matches) {
         if (msg.content == a) msg.channel.send(responses.mathes[a]).catch(e => {
             console.log(e);
         });
