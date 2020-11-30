@@ -11,22 +11,22 @@ client.on("message", msg => {
         });
     }
     for (a in responses.includes) {
-        if (msg.content.includes(a)) msg.channel.send(responses.mathes[a]).catch(e => {
+        if (msg.content.includes(a)) msg.channel.send(responses.matches[a]).catch(e => {
             console.log(e);
         });
     }
     for (a in responses.startsWith) {
-        if (msg.content.startsWith(a)) msg.channel.send(responses.matmathes[a]).catch(e => {
+        if (msg.content.startsWith(a)) msg.channel.send(responses.startsWith[a]).catch(e => {
             console.log(e);
         });
     }
     for (a in responses.endsWith) {
-        if (msg.content.endsWith(a)) msg.channel.send(responses.mathes[a]).catch(e => {
+        if (msg.content.endsWith(a)) msg.channel.send(responses.endsWith[a]).catch(e => {
             console.log(e);
         });
     }
     for (a in responses.matchesUser) {
-        if (msg.author.username == a) msg.channel.send(responses.mathes[a]).catch(e => {
+        if (msg.author.username == a) msg.channel.send(responses.matchesuser[a]).catch(e => {
             console.log(e);
         });
     }
