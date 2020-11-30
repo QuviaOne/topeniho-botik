@@ -1,9 +1,9 @@
 {
     "matches": {},
-    "includes": {},
-    "startsWith": {},
-    "endsWith": {},
+    "includes": {"sex":"sex"},
+    "startsWith": {"hej":"žádný hej","Hej":"žádný Hej"},
+    "endsWith": {".":"netčkuj ty píčo"},
     "matchesUser": {
-        "Mlák": "drž hubu","Topeni":"hot"
+        "Mlák": "drž hubu"
     }
 }

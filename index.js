@@ -5,13 +5,14 @@ const responses = require('./responses.json');
 
 
 client.on("message", msg => {
+    if(msg.author.bot) return;
     for (var a in responses.matches) {
         if (msg.content == a) msg.channel.send(responses.mathes[a]).catch(e => {
             console.log(e);
         });
     }
     for (a in responses.includes) {
-        if (msg.content.includes(a)) msg.channel.send(responses.matches[a]).catch(e => {
+        if (msg.content.includes(a)) msg.channel.send(responses.includes[a]).catch(e => {
             console.log(e);
         });
     }
