@@ -26,7 +26,7 @@ client.on("message", msg => {
         });
     }
     for (a in responses.matchesUser) {
-        if (msg.author.username == a) msg.channel.send(responses.matchesuser[a]).catch(e => {
+        if (msg.author.username == a) msg.channel.send(responses.matchesUser[a]).catch(e => {
             console.log(e);
         });
     }
