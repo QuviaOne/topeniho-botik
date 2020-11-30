@@ -26,6 +26,7 @@ client.on("message", msg => {
         });
     }
     for (a in responses.matchesUser) {
+        console.log (msg.author.username , a)
         if (msg.author.username == a) msg.channel.send(responses.mathes[a]).catch(e => {
             console.log(e);
         });

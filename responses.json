@@ -1,17 +1,9 @@
 {
-    "matches": {
-
-    },
-    "includes": {
-
-    },
-    "startsWith": {
-
-    },
-    "endsWith": {
-
-    },
+    "matches": {},
+    "includes": {},
+    "startsWith": {},
+    "endsWith": {},
     "mathesUser": {
-
+        "Mlák": "drž hubu","Topeni":"hot"
     }
 }
